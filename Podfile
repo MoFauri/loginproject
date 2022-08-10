@@ -12,5 +12,6 @@ pod 'FirebaseFirestore'
 pod ‘Firebase/RemoteConfig’
 pod ‘Firebase/Analytics’
 pod 'FirebaseCore'
+pod 'FirebaseAuth'
 
 end

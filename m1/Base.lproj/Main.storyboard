@@ -187,6 +187,9 @@
                                         <real key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="CreateAccount:" destination="wzw-Jz-gS1" eventType="touchUpInside" id="IXb-7a-yM6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94333755969999999" green="0.74926137749999999" blue="0.28729271719999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -211,15 +214,21 @@
                         <viewLayoutGuide key="safeArea" id="lRR-xB-e4W"/>
                     </view>
                     <navigationItem key="navigationItem" id="fSn-4F-Kks"/>
+                    <connections>
+                        <outlet property="Email" destination="rWJ-pw-ywv" id="Qnb-Ms-Rl0"/>
+                        <outlet property="FirstName" destination="wrI-2v-7YW" id="h5X-pe-oPO"/>
+                        <outlet property="LastName" destination="46i-Su-b2l" id="olY-zy-YwA"/>
+                        <outlet property="PassWord" destination="fVR-Pd-3Ro" id="f60-PL-J12"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="blf-29-4J4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1813" y="-78"/>
+            <point key="canvasLocation" x="1854" y="-77"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="zzy-Wq-Dlq">
             <objects>
-                <viewController id="pwA-Un-a8B" sceneMemberID="viewController">
+                <viewController id="pwA-Un-a8B" customClass="SignInViewController" customModule="m1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aBH-7E-on0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -267,6 +276,9 @@
                                         <real key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Sigin:" destination="pwA-Un-a8B" eventType="touchUpInside" id="Jkb-Vj-Sbb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94333755969999999" green="0.74926137749999999" blue="0.28729271719999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -288,10 +300,38 @@
                         <viewLayoutGuide key="safeArea" id="8LM-tC-0uI"/>
                     </view>
                     <navigationItem key="navigationItem" id="Lbi-bC-uKm"/>
+                    <connections>
+                        <outlet property="Email" destination="Ioz-BQ-ta1" id="nDN-iF-lu3"/>
+                        <outlet property="PassWord" destination="Tr3-fC-7vf" id="Dbz-ox-UEN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XEZ-QV-lNg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1811.594202898551" y="575.89285714285711"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="Uao-s6-BJR">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="eeK-73-jKm" customClass="HomeViewController" customModule="m1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="emK-bY-MUs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50G-RJ-Siy">
+                                <rect key="frame" x="143" y="334" width="141" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94333755969999999" green="0.74926137749999999" blue="0.28729271719999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="mew-2Z-cXy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tv3-JQ-478" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2649" y="271"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cJ8-S5-Dqu">

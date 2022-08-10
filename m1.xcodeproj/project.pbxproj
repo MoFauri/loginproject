@@ -16,6 +16,9 @@
 		3506F187289A8E56004D173A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3506F186289A8E56004D173A /* RoundButton.swift */; };
 		3506F189289AA096004D173A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3506F188289AA096004D173A /* CustomTextField.swift */; };
 		3506F18B289AB2AC004D173A /* secViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3506F18A289AB2AC004D173A /* secViewController.swift */; };
+		3548C71628A3CCAA00D9668E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3548C71528A3CCAA00D9668E /* SignInViewController.swift */; };
+		3548C71828A3EEE500D9668E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3548C71728A3EEE500D9668E /* Constants.swift */; };
+		3548C71A28A3F18700D9668E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3548C71928A3F18700D9668E /* HomeViewController.swift */; };
 		3557554E289BD92100042319 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3557554D289BD92100042319 /* GoogleService-Info.plist */; };
 		35845379289BFA0500465E95 /* Pods_m1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13218343D4902AE15AA6522C /* Pods_m1.framework */; };
 		3584537A289BFA0500465E95 /* Pods_m1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13218343D4902AE15AA6522C /* Pods_m1.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -47,7 +50,10 @@
 		3506F180289A882C004D173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3506F186289A8E56004D173A /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		3506F188289AA096004D173A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		3506F18A289AB2AC004D173A /* secViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secViewController.swift; sourceTree = "<group>"; };
+		3506F18A289AB2AC004D173A /* secViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		3548C71528A3CCAA00D9668E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3548C71728A3EEE500D9668E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3548C71928A3F18700D9668E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3557554D289BD92100042319 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A72E495D18859F28A447D85A /* Pods-m1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m1.release.xcconfig"; path = "Target Support Files/Pods-m1/Pods-m1.release.xcconfig"; sourceTree = "<group>"; };
 		F3691039FD75B4948A17C1A1 /* Pods-m1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m1.debug.xcconfig"; path = "Target Support Files/Pods-m1/Pods-m1.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,7 +104,10 @@
 				3506F174289A882A004D173A /* SceneDelegate.swift */,
 				3506F176289A882A004D173A /* ViewController.swift */,
 				3506F18A289AB2AC004D173A /* secViewController.swift */,
+				3548C71528A3CCAA00D9668E /* SignInViewController.swift */,
+				3548C71928A3F18700D9668E /* HomeViewController.swift */,
 				3506F178289A882A004D173A /* Main.storyboard */,
+				3548C71728A3EEE500D9668E /* Constants.swift */,
 				3506F188289AA096004D173A /* CustomTextField.swift */,
 				3506F186289A8E56004D173A /* RoundButton.swift */,
 				3506F17B289A882C004D173A /* Assets.xcassets */,
@@ -235,12 +244,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3548C71628A3CCAA00D9668E /* SignInViewController.swift in Sources */,
 				3506F187289A8E56004D173A /* RoundButton.swift in Sources */,
 				3506F177289A882A004D173A /* ViewController.swift in Sources */,
 				3506F173289A882A004D173A /* AppDelegate.swift in Sources */,
 				3506F175289A882A004D173A /* SceneDelegate.swift in Sources */,
+				3548C71A28A3F18700D9668E /* HomeViewController.swift in Sources */,
 				3506F18B289AB2AC004D173A /* secViewController.swift in Sources */,
 				3506F189289AA096004D173A /* CustomTextField.swift in Sources */,
+				3548C71828A3EEE500D9668E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
